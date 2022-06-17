@@ -1,6 +1,6 @@
 # WomenSafetyApplication
 Includes: 
-1.> TO add list of emergency contacts and when you feel threatened, then
+1.> To add list of emergency contacts and when you feel threatened, then
 shake your phone. If GPS is ON then your current location will also be sent  to the contacts in the list, otherwise just DANGER message will be sent
 . It works even when app is closed, or even when phone is locked. Just shake your phone anytime when feel threatened.
 
