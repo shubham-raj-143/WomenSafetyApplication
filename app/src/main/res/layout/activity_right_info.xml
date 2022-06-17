@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RightInfo">
+    <include
+        android:id="@+id/toolbar_student"
+        layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteY="-127dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Immoral Traffic (Prevention) Act, 1986 (PITA) has amended The Immoral Traffic (Suppression) Act, 1956 (SITA). This Act is the premier legislation only for prevention of trafficking for commercial sexual exploitation i.e. for the purpose of preventing and ultimately prohibiting prostitution for women and girls to criminalize sex work. In 2006, the Ministry of Women and Child Development proposed an amendment bill i.e. the Immoral Traffic (Prevention) Amendment Bill, 2006 that has yet to be passed."
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:text="Indecent Representation of Women (Prohibition) Act (1986) prohibits indecent representation of women through advertisements or in publications, writings, paintings, figures or in any other manner."
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:text="Commission of Sati (Prevention) Act (1987) provides for the more effective prevention of the commission of practice of Sati or the voluntary or forced burning or burying alive of widows, and to prohibit glorification of this action through the observance of any ceremony."
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:text="Maternity Benefit Act (1961) protects the employment of women during the time of her maternity and entitles her to a �maternity benefit� and certain other benefits. The Maternity Benefit (Amendment) Act, 2017 an amendment to the Maternity Benefit Act (1961) has been passed. The Act is applicable to contractual or consultant women employees, as well as to the women who are already on maternity leave at the time of enforcement of the Amendment Act."
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:text="Pre-conception and Pre-Natal Diagnostic Techniques (Prohibition of Sex Selection) Act (1994) prohibits sex selection before or after conception and prevents the misuse of pre-natal diagnostic techniques for sex determination leading to female foeticide."
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:text="Muslim Women (Protection of Rights on Divorce) Act (1986) protects the rights of Muslim women who have been divorced by or have obtained divorce from their husbands."
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:text="Hindu Succession Act (1956) recognizes the right of women to inherit parental property equally with men. Then there came the Hindu Succession (Amendment) Act 2005 granting daughters the right to inherit ancestral property along with their male relatives."
+                    android:textStyle="italic|bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:text="Minimum Wages Act (1948) does not allow discrimination between male and female workers or different minimum wages for them."
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:text="The Sexual Harassment of Women at Work Place (Prevention and Protection) Act (2013) provides protection to women from sexual harassment at all workplaces both in public and private sector, whether organised or unorganized."
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:text="The Protection of Children from Sexual Offences (POCSO Act) 2012 was formulated in order to effectively address sexual abuse and sexual exploitation of children. It defines a child as any person below the age of 18 years and provides protection to all children under the age of 18 years from the offences of sexual assault, sexual harassment, and pornography."
+                    android:textStyle="italic|bold"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_300"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:text="Child Labour (Prohibition and Regulation) Amendment Act, 2016 prohibits the engagement of children in all occupations and of adolescents in hazardous occupations and processes, where adolescents refer to those under 18 years and children to those under 14 years."
+                    android:textStyle="italic|bold"/>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
