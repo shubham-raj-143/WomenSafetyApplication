@@ -77,7 +77,7 @@ public class SensorService extends Service {
             @SuppressLint("MissingPermission")
             @Override
             public void onShake(int count) {
-                //check if the user has shaked the phone for 3 time in a row
+                //check if the user has shook the phone for 3 time in a row
                 if(count==3) {
                     //vibrate the phone
                     vibrate();
@@ -168,7 +168,7 @@ public class SensorService extends Service {
     @RequiresApi(Build.VERSION_CODES.O)
     private void startMyOwnForeground()
     {
-        String NOTIFICATION_CHANNEL_ID = "example.permanence";
+        String NOTIFICATION_CHANNEL_ID = "example.shubham";
         String channelName = "Background Service";
         NotificationChannel chan = new NotificationChannel(NOTIFICATION_CHANNEL_ID, channelName, NotificationManager.IMPORTANCE_MIN);
 

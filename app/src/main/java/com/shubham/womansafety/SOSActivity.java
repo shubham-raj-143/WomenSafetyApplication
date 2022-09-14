@@ -43,6 +43,7 @@ public class SOSActivity extends AppCompatActivity {
     ListView listView;
     DbHelper db;
     List<ContactModel> list;
+    //  Adapter is a bridge between UI component and data source that helps us to fill data in UI component
     CustomAdapter customAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
