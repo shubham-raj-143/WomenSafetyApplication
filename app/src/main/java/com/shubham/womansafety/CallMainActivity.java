@@ -30,6 +30,7 @@ import java.util.ArrayList;
 
 public class CallMainActivity extends AppCompatActivity {
     private ArrayList<String> contactArrayList;
+
     TextView infoTitle;
     @SuppressLint("Range")
     @Override
@@ -38,6 +39,7 @@ public class CallMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_call_main);
         contactArrayList = new ArrayList<>();
         infoTitle = findViewById(R.id.titleTextView);
+
         final FloatingActionButton fab = findViewById(R.id.floatingActionButton);
         infoTitle.setText("");
         final ListView listView = findViewById(R.id.listView);

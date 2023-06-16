@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +18,7 @@ public class CallActivity extends AppCompatActivity {
     Handler handler;
     Runnable runnable;
     TextView timeText;
+    ImageView accept_btn;
     int number;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,8 @@ public class CallActivity extends AppCompatActivity {
         mediaPlayer = MediaPlayer.create(this, Settings.System.DEFAULT_RINGTONE_URI);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
+        accept_btn = findViewById(R.id.accept_btn);
+
         TextView name = findViewById(R.id.nameTextView);
         timeText = findViewById(R.id.timerTextView);
         name.setText(intent.getStringExtra("name"));
@@ -34,6 +39,7 @@ public class CallActivity extends AppCompatActivity {
     public void accept(View view) {
         mediaPlayer.stop();
         handler = new Handler();
+        accept_btn.setVisibility(View.INVISIBLE);
         runnable = new Runnable() {
             @Override
             public void run() {
@@ -60,5 +66,12 @@ public class CallActivity extends AppCompatActivity {
 
     public void decline(View view) {
         mediaPlayer.stop();
+        super.onBackPressed();
+    }
+    @Override
+    public void onBackPressed() {
+        mediaPlayer.stop();
+        accept_btn.setVisibility(View.VISIBLE);
+        super.onBackPressed();
     }
 }
